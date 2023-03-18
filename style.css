@@ -32,7 +32,7 @@ body {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
 }
 
@@ -78,13 +78,33 @@ input[type="search"] {
 
 button {
     height: 2rem;
-    width: 5rem;
-    border-radius: 12px;
+    width: 6rem;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(0, 119, 255);
+    border-radius: 16px;
     border: none;
 }
 
 .main-content {
     background-color: rgb(198, 207, 224);
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.projects-container {
+    grid-column: 1 / 2;
+}
+
+.announce-trend-container {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    display: grid;
+}
+
+.announcements-container {
+}
+
+.trending-container {
+
 }
